@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  font-family: 'Lato';
+}
+
+nav {
+  width: 100%;
+  background: lightgray;
+  position: fixed;
+  
+  ul {
+    list-style: none;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    a {
+      text-decoration: none;
+      color: black;
+      
+      
+    }
+  }
+}
+.mygtukas {
+  height: 25px;
+  width: 150%;
+  background: blue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.section {
+  height: 300px;
+  width: 100%;
+  
+  .jura {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-image:url('../css/images/bg-masthead.jpg');
+    text-align: center;
+    // background-color: blanchedalmond;
+
+      h1 {
+        font-size:30px;
+        color: white;
+        margin-top: 70px;
+        position: absolute;
+        max-height: 107px;
+        word-wrap: break-word;
+        overflow: hidden;
+
+      }
+      .email {
+        width: 540px;
+        bottom: -130px;
+        margin-top: 60px;
+        position: relative;
+        #email2 {
+          padding: 5px;
+          width: 400px;
+          height: 25px;
+          border-radius: 5px;
+        }
+        .mygtuks {
+          height: 38px;
+          width: 90px;
+          background-color: blue;
+          border-radius: 5px;
+          color: white;
+          border: none;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .section1 {
+  padding: 50px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  background: lightgray;
+
+
+  .elementas1 {
+    margin-top: 60px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    p {
+      margin-top: 10px;
+      color: gray;
+    }
+  }
+}
+#pc {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: blue;
+}
+#check {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: blue;
+}
+#layer {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: blue;
+}
+
+
+
+
+.section2 {
+  flex-wrap: wrap;
+  display: flex;
+  height: fit-content;
+  width: 100%;
+
+  .elementas2 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    p {
+      color: gray;
+    }
+  }
+}
+#telefonas {
+  background-image: url('../css/images/bg-showcase-1.jpg');
+  background-size: cover;
+}
+#kodas {
+  background-image: url('../css/images/bg-showcase-2.jpg');
+  background-size: cover;
+}
+#vaikas {
+  background-image: url('../css/images/bg-showcase-3.jpg');
+  background-size: cover;
+}
+.elementas2 p, h1 {
+  padding-left: 70px;
+  padding-right: 100px;
+  max-height: fit-content;
+  overflow: hidden;
+}
+
+
+
+
+.section3 {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  background-color: lightgray;
+  
+  .elementas3 {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+}
+#margaret {
+  width: 200px;
+  height: 200px;
+  background-image: url('../css/images/testimonials-1.jpg');
+  background-size: cover;
+  border-radius: 100%;
+}
+.elementas3 p {
+  height: fit-content;
+  margin-bottom: 60px;
+  color: gray;
+}
+.elementas3 h3 {
+  margin: 10px;
+}
+#fred {
+  width: 200px;
+  height: 200px;
+  background-image: url('../css/images/testimonials-2.jpg');
+  background-size: cover;
+  border-radius: 100%;
+}
+#sarah {
+  width: 200px;
+  height: 200px;
+  background-image: url('../css/images/testimonials-3.jpg');
+  background-size: cover;
+  border-radius: 100%;
+}
+.section3 h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.section33 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.section4 {
+  height: 300px;
+  width: 100%;
+  
+  .jura {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-image:url('../css/images/bg-masthead.jpg');
+    text-align: center;
+    background-size: cover;
+    // background-color: blanchedalmond;
+
+      h1 {
+        font-size:30px;
+        color: white;
+        margin-top: 70px;
+        position: absolute;
+        max-height: 107px;
+        word-wrap: break-word;
+        overflow: hidden;
+
+      }
+      .email {
+        width: 540px;
+        bottom: -80px;
+        margin-top: 60px;
+        position: relative;
+        #email2 {
+          padding: 5px;
+          width: 400px;
+          height: 25px;
+          border-radius: 5px;
+        }
+        .mygtuks {
+          height: 38px;
+          width: 90px;
+          background-color: blue;
+          border-radius: 5px;
+          color: white;
+          border: none;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+  }
+
+  .footer1 {
+    color: blue;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    list-style: inside ;
+  }
+  .about {
+    list-style: none;
+  }
+  footer li {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  footer p {
+    margin-top: 20px;
+    margin-left: 70px;
+    color: gray;
+  }
+  #twt {
+    color: blue;
+    font-size: 50px;
+    padding: 10px;
+  }
+  #fb {
+    color: blue;
+    font-size: 50px;
+    padding: 10px;
+  }
+  #ins {
+    color: blue;
+    font-size: 50px;
+    padding: 10px;
+  }
+.soc {
+  margin-right: 70px ;
+}
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    flex:1
+  }
+  .section2 {
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    .elementas2 {
+      width: 100%;
+    }
+  }
+  #telefonas {
+    order: -7;
+  }
+  #tekstasa {
+    order: -6;
+  }
+  #kodas {
+    order: -5;  
+  }
+  #tekstasb {
+    order: -4;
+  }
+  #tekstasc {
+    order: -1;
+  }
+  #vaikas {
+    order: -2;
+  }
+  .section1 {
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer1 {
+    margin: 0;
+  }
+  .soc {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer p {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+    color: gray;
+  }
+}
